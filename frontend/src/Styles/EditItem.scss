@@ -1,0 +1,30 @@
+@import "Input";
+
+.edit-row {
+  margin: 0px;
+  margin-top: 8px;
+}
+
+.field {
+  text-align: left;
+  min-height: 30px;
+}
+
+.field__input {
+  @extend %input;
+}
+
+.button {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button__left {
+  margin-right: 5px;
+  width: 80px;
+}
+
+.button__right {
+  width: 80px;
+}

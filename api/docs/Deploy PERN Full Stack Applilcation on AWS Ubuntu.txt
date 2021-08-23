@@ -1,0 +1,114 @@
+
+DEPLOY PERN FULL STACK APPLICATION to AWS
+
+Link of tutorial: https://github.com/Sanjeev-Thiyagarajan/PERN-STACK-DEPLOYMENT
+
+1. Create instance EC2
+
+2. Connect to the instance: •	ssh -i Downloads/aibers_web_kp.pem ubuntu@public_ip
+
+3. Install and Configure PostgreSQL
+	sudo apt install postgresql postgresql-contrib -y   
+	sudo -i -u postgres >> login as user postgres in terminal
+	createuser –interactive >> then create user with name "ubuntu"
+	psql -d postgres >> login as postgres
+	ALTER user ubuntu PASSWORD 'hamzaPG'; >> set password with user "ubuntu", write in postgres
+
+4. Migrate Database Scheme & data
+	copy aibersdb.sql to server(aws instance):  scp -i Downloads/aibers_web_kp.pem Downloads/aibersdb.sql ubuntu@publicIPAddress:/home/ubuntu/
+	create new database aibers_health and run: psql aibers_health < /home/ubuntu/aibersdb.sql(in terminal as user ubuntu)
+
+5. Copy gitlab repo to sever
+	git clone https://gitlab.com/Shozi/aibers_web
+
+6. Install Node
+	curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+	sudo apt-get install -y nodejs
+	node –-version >> to confirm installation
+	node index.js >> to check server is working properly
+
+7. Install and Configure PM2
+	sudo npm install pm2 -g
+	pm2 start /home/ubuntu/aibers/aibers_web/server/index.js --name aibers_web_server >> start index.js with pm2 
+	pm2 startup >> then copy paste command from terminal and press enter
+	pm2 save >> now index.js will automatically start on reboot
+
+8. Deploy React Frontend
+	in client folder run this to install all packages
+	npm install
+	npm run build >> to make build files to serve to users
+
+9. Install and Configure NGINX
+	sudo apt install nginx -y
+	sudo systemctl enable nginx
+	systemctl status nginx >> to check status of nginx
+	cd /etc/nginx/sites-available/default
+
+Allow http and https traffic from EC2 instance
+Then type your public ip to browser and see
+
+  Make copy of "default" : 
+	sudo cp default hamzazeb.com
+	sudo vim hamzazeb.com
+
+
+**** changes in file start
+server {
+        listen 80;
+        listen [::]:80;
+
+         root /home/ubuntu/apps/yelp-app/client/build;
+
+        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name hamzazeb.com www.hamzazeb.com;
+
+        location / {
+                try_files $uri /index.html;
+        }
+
+         location /api {
+            proxy_pass http://localhost:8090;
+            proxy_http_version 1.1;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection 'upgrade';
+            proxy_set_header Host $host;
+            proxy_cache_bypass $http_upgrade;
+        }
+
+}
+
+changes in file end here *******
+	
+
+then save file, deploy and restart nginx
+	    sudo ln -s /etc/nginx/sites-available/hamzazeb.com /etc/nginx/sites-enabled/
+	    systemctl restart nginx
+
+
+Now add A records in domain setting: 
+A Record	Host: @ 	Value: public ip
+A Record	Host: www	Value: public ip
+
+10. Configure Environment Variables
+	Create .env file in root directory >> Sudo vim .env
+	Put environment variables and save file, then
+	set -o allexport; source .env; set+o allexport
+
+Auto reload env variables on reboot
+	set this command at end of .profile hidden file in home directory
+	set -o allexport; source /home/ubuntu/.env; set +o allexport
+
+11. Enable Firewall
+	sudo ufw allow ssh
+	sudo ufw allow http
+	sudo ufw allow https
+	sudo ufw enable
+	sudo ufw status
+
+12. Enable SSL with Let's Encrypt (https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx.html)
+	sudo snap install --classic certbot
+	sudo ln -s /snap/bin/certbot /usr/bin/certbot
+	sudo certbot --nginx
+	

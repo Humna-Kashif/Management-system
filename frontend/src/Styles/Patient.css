@@ -1,0 +1,70 @@
+.detail_head{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    background-color:gray;
+    
+}
+.detail_head__topsection{
+    
+    background:white;
+    height:10vh;
+}
+
+.detail_head__name{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    color:#e0004d;
+}
+.patient_image{
+    position: relative;
+    left:20px;
+    top: 10px;
+}
+.patient_name{
+    position: relative;
+    left:30px;
+    top: 17px;
+    color: black;
+}
+.appointment_btn{
+    background:#e0004d;
+    color: white;
+    height: 35px;
+    border-radius: 2em;
+    border:#e0004d ;
+    width: 200px;
+    margin-top: 10px;
+    align-content: center;
+}
+.detail_head__whitesection{
+    background:white;
+    height:5vh;
+    /* border-style: dotted; */
+    /* border-color: red; */
+}
+.profile_btn{
+    background: transparent;
+    width: 110px;
+    height: 37px;
+    border-top-left-radius:0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: transparent;
+    margin-right: 5px;
+    border-width: 0.5px;
+    border-color: lightgrey;
+    margin-left: 15px;
+}
+.history_btn{
+    background: transparent;
+    width: 110px;
+    height: 37px;
+    border-top-left-radius:0.5em;
+    border-top-right-radius: 0.5em;
+    border-bottom: transparent;
+    margin-right: 5px;
+    border-width: 0.5px;
+    border-color: lightgrey;
+}

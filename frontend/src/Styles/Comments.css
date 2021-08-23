@@ -1,0 +1,118 @@
+.Comments-Head{
+    flex-direction: row;
+                padding-top: 4;
+                display: flex;
+                justify-content: flex-start;
+                padding-bottom: 4;
+                -webkit-border-before-width: 1;         
+}
+.CommentsLabel{
+    font-size: 12px; opacity: 0.6 !important;
+     margin-left: 10px !important;
+     color: #3c3b3b !important;
+    
+}
+@media screen and (min-width:1100px){
+  .CommentInputdiv{
+    margin-top:3px;
+    padding-left:0px
+  }
+}
+
+.Comment-Box{
+  padding: 2px 12px;
+     display: flex; align-items: center;
+     width: 100%;
+      border: 1px solid #efefef;
+        border-radius: 2em !important;
+        height: 40px;
+        background: none;
+        box-shadow: 0px 2px 1px -1px rgba(255, 255, 255, 0), 0px 1px 1px 0px rgba(142, 118, 118, 0), 0px 1px 3px 0px rgba(184, 178, 178, 0.12) !important;
+}
+
+.Comment-Box input{
+    box-shadow: 0px 5px 25px #f5f5f500 !important;
+ 
+}
+.Comments-BoxIn{
+ 
+    box-shadow: 0px 5px 25px #f5f5f500;
+    flex: 1;
+     background:transparent;
+      font-size:12;
+       border:none
+
+}
+.Comments-Info{
+    height:300px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.Comments-Container{
+  margin-top: 15px;
+  height: 250px;
+  overflow: hidden;
+  box-shadow: 0px 2px 1px -9px rgba(0, 0, 0, 0), 0px 2px 2px 0px rgba(0, 0, 0, 0), 0px 1px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  padding: 5px 20px;
+}
+.Comments-Container:hover {
+  overflow: auto;
+}
+.Comments-Container .scrollbox{
+  padding-right: 16px;
+}
+.Comments-Container:hover .scrollbox {
+  padding-right: 0px;
+}
+.Comments-Container .MuiAvatar-root{
+  width: 50px !important;
+    height: 50px !important;
+    margin-top: 3px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    border: 1px solid #bfbfbf;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.Com-Name{
+  color: rgb(224, 0, 77);
+  font-weight: bold;
+  padding-top: 7px;
+  cursor: pointer;
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+}
+.Comments-Divider{
+  margin: 30px 0
+}
+.Com-moments{
+  text-align: right !important;
+  color: #a6a6a6;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.ComText{
+  text-align: justify;
+  margin-top: 5px;
+  color: #333333;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+.ComText:hover{
+  opacity: 0.9;
+}
+input{
+  width: 100%;
+}

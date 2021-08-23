@@ -1,0 +1,88 @@
+.HeadTitle{
+    margin-left: 12px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.HeadBtn{
+    position: absolute !important;
+    right: 0 !important;
+    color: white !important;
+}
+.MuiIconButton-root:focus{
+    outline: 1px solid transparent !important;
+}
+
+.Cards{
+    width: 100%;
+    box-shadow: 14px -1px 22px -2px rgb(0 0 0 / 5%), 0px 1px 1px 0px rgb(107 107 107 / 3%), 0px 1px 3px 0px rgb(0 0 0 / 2%) !important;
+    border-radius: 0px !important;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    
+}
+
+.Cards .MuiCardContent-root{
+text-align: left;
+}
+.Cards .MuiAvatar-root{
+    border: 1px solid #e3474d !important;
+    height: 45px !important;
+    width: 45px !important;
+    margin-top: 4px;
+    margin-left: -4px;
+}
+.Cards .MuiCardActions-root {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    float: right;
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+
+.cardTitle{
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .cardTitle label{
+      color: #333333;
+      cursor: pointer;
+      font-weight: 550;
+  }
+.Cards .Moment{
+    color: #afafaf;
+    font-size: 13px;
+    right: 11px;
+}
+.Cards .MuiCardContent-root {
+    padding: 16px;
+    padding-bottom: 0;
+}
+
+
+.EmptyMoment{
+    vertical-align: middle;
+    margin-top: 118%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #bababa;
+}
+
+.Notification-Container {
+padding-top: 5px;
+    height: 100%;
+    overflow: hidden;
+}
+.Notification-Container  .scrollbox {
+    padding-right: 0px;
+}
+
+.Notification-Container:hover {
+    overflow: auto;
+  }
+  .Notification-Container:hover .scrollbox {
+    padding-right: 0px;
+  }
+ 

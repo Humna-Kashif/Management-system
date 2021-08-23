@@ -1,0 +1,43 @@
+.logo {
+  margin-left: 1%;
+  color: #00000000 !important;
+}
+.Notifications {
+  margin-right: 2%;
+  color: white;
+}
+
+.AccountCircle {
+  margin-right: 2%;
+  color: white;
+}
+.navbar {
+  z-index: 100;
+  border-bottom: 1px #00000000 solid;
+  background-color: "white";
+}
+.navbar,
+.navbar-default {
+  height: 68px;
+  background-color: #f5f5f5 !important; /* override background image gradient w/ flat color */
+}
+
+.ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+  clear: both;
+  margin: 0;
+  padding: 5px 10px !important;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: bold !important;
+  text-align: left;
+  /* padding-left: 0; */
+  /* margin-left: 0px; */ 
+  font-size: 16px !important;
+  line-height: 22px;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.PatientForm .ant-form-item{
+  margin-bottom: 0px !important;
+}

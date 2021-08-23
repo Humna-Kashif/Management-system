@@ -1,0 +1,181 @@
+.PreviousHistory {
+  background: white;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  /* height: 75vh;
+     overflow-y: scroll; */
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+.PreviousHistory::-webkit-scrollbar {
+}
+.TitleText {
+  color: rgb(224, 0, 77);
+  font-weight: bold;
+  padding-left: 0px;
+  padding-top: 16px;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.DoctorInfo .MuiAvatar-root {
+  height: 55px;
+  width: 55px;
+  border-width: 0.3px;
+  border-color: rgb(224, 0, 77);
+  border-style: solid;
+  float: left;
+  margin-left: 5px;
+  margin-right: 7px;
+}
+.DoctorInfo .Name {
+  font-size: 16px;
+  text-align: left;
+  padding-top: 1px;
+  font-weight: 550;
+  color: #e0004d;
+  margin-bottom: 1px;
+}
+.DoctorInfo .Tags {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 1px;
+}
+.DoctorInfo .SubTags {
+  font-size: 14px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.HistorySection {
+  text-align: left;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.HistorySection h6 {
+  font-size: 14px;
+  margin-right: 10px;
+}
+.PriceTag {
+  color: #e0004d;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.ViewDetails {
+  background: #f9f9f9;
+  font-size: 12px;
+  text-transform: capitalize !important;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  color: #333333;
+  padding: 2px 8px !important;
+  margin-top: 0px;
+  border: 1px solid #efefef !important;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+.ViewDetails:hover,
+.ViewDetails:focus {
+  opacity: 0.9;
+  outline: 1px solid transparent;
+  border: 1px solid #efefef;
+}
+
+.TestTitle {
+  text-align: left;
+  margin-top: 8px;
+}
+.prescLabel {
+  color: #e0004d;
+  font-size: 14px;
+  font-weight: bold;
+}
+.table td,
+.table th {
+  padding: 5px;
+  vertical-align: middle !important;
+  border-top: 1px solid #dee2e6;
+  text-align: center;
+}
+.TotalNum {
+  font-size: 17px;
+  margin-left: 10px;
+}
+.Totaltxt {
+  color: #e0004d;
+  font-size: 13px;
+  margin-right: 10px;
+}
+/* .HistoryList{
+    max-height: 94vh;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+.HistoryList{
+    margin-right: 18px;
+} */
+
+/* .HistoryList:hover {
+    overflow: auto;
+  } */
+.HistoryList .scrollbox {
+  /* padding-right: 16px; */
+}
+/* .HistoryList:hover .scrollbox {
+    padding-right: 0px;
+  } */
+.NoDataImg {
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
+
+.HistList-Container {
+  /* margin-top: 15px; */
+  height: 75vh;
+  overflow: hidden;
+  /* box-shadow: 0px 2px 1px -9px rgba(0, 0, 0, 0), 0px 2px 2px 0px rgba(0, 0, 0, 0), 0px 1px 5px 0px rgba(0, 0, 0, 0.24) !important; */
+  /* padding: 5px 20px; */
+  /* padding: 10px; */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+.HistList-Container:hover {
+  overflow: auto;
+}
+.HistList-Container::-webkit-scrollbar {
+  width: 2px;
+}
+.HistList-Container .scrollbox {
+  padding-right: 0px;
+}
+.HistList-Container:hover .scrollbox {
+  padding-right: 0px;
+}
+
+.SymptomsDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+.SymptomsDiv .MuiChip-root {
+  margin-bottom: 0px;
+}
+
+.addedRow {
+  background-color: lightgreen;
+}
+
+.deletedRow {
+  background-color: lightsalmon;
+  text-decoration: line-through;
+}
+
+.ant-table-thead > tr > th {
+  font-weight: normal;
+  font-size: 11px;
+  color: #000000a1;
+}

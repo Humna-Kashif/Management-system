@@ -1,0 +1,74 @@
+.MyCard {
+  background-color: #f8f8f8;
+  z-index: 1;
+  border: 1px solid #00000024;
+  box-shadow: #00000024 0px 1px 1px;
+  transition: all 150ms ease;
+}
+
+.MyCard,
+.MyCardSmall {
+  background-color: #f8f8f8;
+  z-index: 1;
+  border: 1px solid #00000024;
+  box-shadow: #00000024 0px 1px 1px;
+  transition: all 150ms ease;
+}
+
+.MyCard:hover {
+  background-color: white;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: #00000018 0px 8px 15px;
+}
+
+.MyCardSmall:hover {
+  background-color: white;
+  cursor: pointer;
+  z-index: 10;
+  box-shadow: #00000018 0px 8px 15px;
+}
+
+.MyPopOver {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: #0000004f 0px 3px 6px;
+}
+
+.popcard__container {
+  background-color: #fff;
+  border-radius: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00000024;
+  box-shadow: #00000018 -30px 60px 60px;
+  min-width: 400px;
+  min-height: 200px;
+  top: -30px;
+  left: 50px;
+  position: absolute;
+  opacity: 0;
+  z-index: 60;
+  transform: translate(10px, -30px);
+  transition: all 150ms ease;
+}
+
+.popcard--show {
+  opacity: 1;
+  box-shadow: #00000024 0px 3px 5px;
+  transform: translate(0px, 0px);
+}
+
+.sideTagSmall {
+  width: 8px;
+  color: #00000000;
+  overflow: hidden;
+  transition: all 500ms ease;
+}
+
+.sideTag {
+  width: 20px;
+  overflow: hidden;
+  color: white;
+  transition: all 200ms ease;
+}

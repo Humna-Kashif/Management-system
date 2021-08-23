@@ -1,0 +1,51 @@
+@import "Colors";
+@import "Input";
+
+.separation {
+  padding-bottom: 20px;
+}
+
+.margin {
+  margin: 0px;
+}
+
+.done {
+  margin-right: 5px;
+  width: 80px;
+}
+
+.add {
+  margin-left: 5px;
+  width: 100px;
+}
+
+.value {
+  margin: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.value__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.value__input {
+  @extend %input;
+}
+
+.edit-button {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-label {
+  color: $primary-color;
+  padding-right: 10px;
+}
+
+.edit-symbol {
+  color: $primary-color;
+  cursor: pointer;
+}

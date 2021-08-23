@@ -1,0 +1,152 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: whitesmoke; */
+  background: rgb(250,250,250);
+  background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(245,245,245,1) 50%, rgba(250,250,250,1) 100%);
+  display: flex;
+}
+.form-wrapper {
+  width: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  margin-bottom: 120px;
+  box-shadow: 0px 8px 16px #bdbdbd;
+  background-color: #f8f8f8;
+  overflow: hidden;
+  border: 1px solid #fafafa;
+  opacity: 0;
+  transform: translate(0px, -30px);
+  transition: all 1s;
+}
+.form-wrapper__animate {
+  opacity: 1;
+  transform: translate(0px, 0px);
+}
+h3 {
+  color: #e0004d;
+  padding: 20px 40px;
+}
+.Login-form {
+  width: 100%;
+  position: relative;
+}
+
+.otp-container {
+  position: relative;
+  top: 0;
+  width: 100%;
+  right: 0px;
+  transition: all 1s;
+}
+.otp-animate {
+  right: -400px;
+  position: absolute;
+}
+
+.contact-container {
+  position: relative;
+  top: 0;
+  left: 0px;
+  transition: all 1s;
+}
+.contact-animate {
+  left: -400px;
+  position: absolute;
+}
+
+.form-wrapper .back-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: #e0004d;
+  height: 40px;
+  width: 40px;
+}
+
+
+input {
+  padding: 10px 10px;
+  border-radius: 2em;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  box-shadow: 0px 5px 25px whitesmoke;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+input::placeholder {
+  font-size: 1em;
+  font-weight: lighter;
+  color: #999;
+}
+.SignInAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignInAccount button {
+  background-color: #e0004d;
+  border: 1px solid #cfcfcf;
+  border-radius: 2em;
+  outline: none;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.SignInAccount button:focus{
+  outline: 1px solid transparent;
+}
+.SignInAccountALL {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 215px;
+  align-items: center;
+}
+.SignInAccountALL button {
+  background-color: #e0004d;
+  border: 1px solid #cfcfcf;
+  border-radius: 2em;
+  outline: none;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+.SignInAccountALL button:focus{
+  outline: 1px solid transparent;
+}
+
+
+.createAccount button:hover {
+  color: #e0004d;
+  background-color: #fff;
+  border: 2px solid#e0004d;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+
+label {
+  color: #e0004d;
+}
+

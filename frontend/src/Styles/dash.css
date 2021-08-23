@@ -1,0 +1,286 @@
+.sidebar,
+.sidebar-small {
+  position: sticky;
+  top: 0;
+  background-color: cornflowerblue;
+  left: 0;
+  height: 100vh !important;
+  z-index: 80;
+  padding: 0px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item > .pro-item-content {
+  overflow: visible;
+}
+.sidebar-small {
+  width: 400;
+}
+#sidebar-wrapper {
+  min-height: 100vh !important;
+  width: 100vw;
+  margin-left: -1rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+  min-width: 0;
+  width: 100%;
+}
+
+.DashStatsDiv {
+    border: 1px solid #efefef;
+    background: white;
+    border-radius: 4px;
+}
+.DahProgressDiv {
+  border: 1px solid #e0d8d8;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: left;
+  height: 435px;
+}
+.Statslegends{
+  text-align: left;
+}
+.DahProgressDiv .ProgressCard {
+  width: 100%;
+  border: 1px solid #efefef;
+  border-radius: 4px !important;
+  padding: 5px;
+  box-shadow: 14px -1px 22px -2px rgb(0 0 0 / 5%),
+    0px 1px 1px 0px rgb(107 107 107 / 3%), 0px 1px 3px 0px rgb(0 0 0 / 2%) !important;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.DashStatsDiv .AppointmentStats {
+  margin-top: 30px;
+  margin-left: -30px;
+}
+.DashStatsDiv .StatsMain {
+  background-color: #ffffff;
+    /* width: 440px; */
+    height: 320px;
+    border-top-right-radius: 160px;
+    border-bottom-right-radius: 160px;
+    border-right: 1px solid #efefef;
+    box-shadow: 1px 0px 5px rgb(0 0 0 / 9%);
+}
+.StatusList .ant-badge {
+  right: 8px !important;
+  top: -2px;
+}
+.DahProgressDiv .ant-badge {
+  position: absolute;
+  top: -3px;
+  right: 22px;
+}
+
+/* Telehealth */
+body {
+  overflow: auto !important;
+}
+
+#zmmtg-root {
+  display: none ;
+}
+
+#zmmtg-root{
+  width: 1000px !important;
+  height: 500px !important;
+  /* background-color: transparent !important; */
+  /* position: relative !important; */
+}
+.meeting-app{
+  width: 800px !important;
+  height: 450px !important;
+}
+
+#zmmtg-root, .meeting-client, .meeting-client-inner {
+  margin-right: 50px;
+  width: 800px !important;
+  height: 450px !important;
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  margin-bottom: 10px;
+  top: auto !important;
+  left: auto !important;
+  z-index: 1000;
+  overflow: hidden;
+}
+#wc-loading{
+  width: 800px !important;
+  height: 450px !important;
+}
+.video-avatar__avatar-name{
+  font-size: 14px !important;
+}
+.gallery-video-container__wrap canvas {
+  width: 800px !important;
+  height: 450px !important;
+  background: #1a1a1a;
+}
+.speaker-active-container__video-frame{
+  width: 1000px !important;
+    height: 708px !important;
+    bottom: 122px;
+    left: 0px;
+}
+.zmu-tabs .join-dialog__tabs .zmu-tabs--bar-top{
+  width: 800px !important;
+}
+.join-dialog__tabs .zmu-tabs__tab-container{
+  width: 800px !important;
+}
+#wc-footer {
+  width: 800px !important;
+}
+
+.join-dialog{
+width: 800px !important;
+display: none !important;
+}
+#dialog-join {
+  width: 800px !important;
+}
+.gallery-video-container__main-view{
+  margin-top: 0px;
+  height: 450px !important;
+  width: 800px !important;
+}
+.gallery-video-container__wrap {
+  width: 800px !important;
+  height: 450px !important;
+}
+.gallery-video-container__wrap canvas{
+  width: 800px !important;
+  height: 450px !important;
+}
+
+#sv-active-video, .active-main, #sv-active-speaker-view, .main-layout {
+  height: 440px !important;
+  width: 1000px !important;
+}
+
+.speaker-bar-container__horizontal-view-wrap {
+  width: 100% !important;
+  height: 120px !important;
+  padding: 3px 0;
+  background-color: #111111;
+}
+.speaker-bar-container__video-frame{
+  width: 207px !important;
+  height: 116.438px !important;
+}
+.gallery-video-container__video-frame{
+    width: 800px !important;
+    height: 450px !important;
+    z-index: 0;
+    cursor: default;
+    transform: translate(0px, -505px) !important;
+}
+.video-avatar__avatar-footer{
+  bottom: 66px !important;
+  left: 10px !important;
+}
+.footer{
+  background-image: linear-gradient(to bottom, #1e20219c, #1c1e20) !important;
+}
+.leave-meeting-options {
+  position: absolute;
+  bottom: 52px;
+  right: 8px;
+  width: 184px !important;
+  padding: 16px;
+  background: rgba(9, 10, 10, 0.8);
+  border-radius: 23px 4px 0px 0px !important;
+}
+.leave-meeting-options__btn--danger:hover{
+  border: 1px solid transparent !important;
+}
+.video-option-menu{
+  display: none;
+}
+#sv-active-video, .active-main, #sv-active-speaker-view, .main-layout {
+  height: 450px !important;
+  width: 800px !important;
+}
+.sharer-controlbar-container__overlay {
+  background: #e0004d !important;
+  position: absolute;
+  top: auto !important;
+  left: auto !important;
+  right: 50px !important;
+  bottom: 459px !important;
+  text-align: center;
+  color: #FFFFFF;
+  overflow: visible !important;
+  z-index: 1000 !important;
+  width: 800px !important;
+
+}
+#moreButton{
+  display: none !important;
+}
+
+.suspension-window {
+  transform: translate(-444px, 10px) !important;
+}
+
+#dialog-invite {
+  display: none;
+}
+.notification-manager{
+  max-width: 650px;
+  top: 3px;
+}
+.headTitle{
+text-align: left;
+font-size: 22px;
+font-weight: bold;
+color: #e0004d;
+text-transform: capitalize; 
+}
+.ptag{
+  font-size: 16px;
+  color: #7b7b7b;
+  text-align: left;
+}
+.meetBtns{
+  margin-bottom: 10px;
+}
+.orTag{
+  margin-bottom: 0px;
+  color: #9e9e9e;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* help and support  */
+
+.ant-descriptions-title{
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Login Input */
+.PhoneNumber .ant-input-group .ant-input {
+  border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    height: 45px;
+}
+.PhoneNumber .ant-input-group-addon{
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  height: 45px;
+}

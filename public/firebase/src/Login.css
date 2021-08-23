@@ -1,0 +1,83 @@
+.header{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:whitesmoke;
+    display: flex;
+    font-family: calibri;
+    text-align: center;
+}
+.form-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 15px 25px 35px white;
+    background-color: whitesmoke;
+  }
+  h3{
+      color: #e0004d;
+      font-size: 35px;
+  }
+  .Login-form {
+    width: 100%;  
+  }
+  
+  input {
+    padding: 13px 10px;
+    border-radius: 2em;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #cfcfcf;
+    box-shadow: 0px 5px 25px whitesmoke;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+  }
+  
+  input::placeholder {
+    font-size: 1em;
+    font-weight: lighter;
+    color: #999;
+  }
+  .SignInAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .SignInAccount button {
+    background-color:#e0004d;
+    border: 1px solid #cfcfcf;
+    border-radius: 2em;
+    outline: none;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 80%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+  }
+  
+  .createAccount button:hover {
+    color:#e0004d;
+    background-color: #fff;
+    border: 2px solid#e0004d;
+  }
+  
+  .createAccount small {
+    color: #999;
+    font-weight: lighter;
+  }
+  
+label{
+    color: #e0004d;
+}
+  
+  

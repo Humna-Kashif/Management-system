@@ -1,0 +1,87 @@
+.HeadingName{
+    font-size: 16px;
+    text-align: left;
+    padding-top: 1px;
+    font-weight: 550;
+    color: #e0004d;
+    margin-bottom: 1px;
+}
+.SubHeadTag{
+    font-size: 14px;
+    text-align: left;
+    color: #333333;
+    margin-bottom: 1px;
+}
+#capture{
+padding-top: 5px;
+/* background-image: url('../Styles/Assets/myhealthlogo.png'); */
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+}
+.PanelTitle{
+    font-weight: bold;
+    color: #e0004d;
+}
+.PanelIcon{
+    color: #333333;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.StatusActive{
+    color: green;
+    font-size: 14px;
+    font-weight: 550;
+}
+.statusLogout{
+    color: grey;
+    font-size: 14px;
+}
+.TitleMain{
+    font-weight: 550;
+    color: #e0004d;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.cardSub{
+    color: #333333;
+    font-weight: 550;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.activity_card .ant-card-body{
+    padding-bottom: 3px !important;
+}
+html, body {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    /* height: auto !important; */
+    /* overflow-y: auto !important; */
+    background-color: #fff;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum', "tnum";
+}
+
+.ant-table-footer{
+padding: 7px 20px;
+}
+.ant-table.ant-table-bordered > .ant-table-footer {
+    border: 1px solid #f0f0f0;
+    border-top: 0;
+    text-align: right;
+}
+.ant-table-thead > tr > th{
+
+font-weight: bold !important;
+}
+.ant-table.ant-table-small {
+    font-size: 14px;
+    margin-right: 10px;}

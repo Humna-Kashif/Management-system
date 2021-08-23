@@ -1,0 +1,20 @@
+@import "Colors";
+
+$alignment: right;
+
+// Modal Text Styles
+
+.ModalLabel {
+    margin-bottom: 20px;
+    font-weight: 550;
+    margin-top: 4px;
+    text-align: $alignment;
+    cursor: pointer;
+    .label{
+        color:$label-grey;
+        &:hover{
+            color:$primary-light
+        }
+    }
+    
+}

@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "src",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+    {
+      "source": "/successLogin",
+      "destination": "/successLogin.html"
+    },
+    {
+      "source": "/errorLogin",
+      "destination": "/errorLogin.html"
+    }
+    ]
+  }
+}

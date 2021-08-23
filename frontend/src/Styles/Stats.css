@@ -1,0 +1,384 @@
+.StatsMain {
+  background-color: #ffffff;
+  /* width: 370px; */
+  height: 100%;
+  border-top-right-radius: 500px;
+  border-bottom-right-radius: 500px;
+  border-right: 1px solid #efefef;
+  box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.09);
+}
+.CalendarSecStats .StatsMain {
+  background-color: transparent;
+  /* width: 370px; */
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-right: 1px solid transparent;
+  box-shadow: 1px 0px 5px transparent;
+}
+.CalendarSecStats .AppointmentStats {
+  margin-top: 0px;
+  text-align: left;
+  /* float: left; */
+  /* margin-left: -25px; */
+  margin-left: 0px;
+  /* margin-bottom: 17px; */
+}
+.AppointmentStats-Badges {
+  margin-top: 0px;
+}
+.StatsTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(224, 0, 77);
+  text-align: left;
+  /* margin-top: 5px; */
+  padding-top: 10px;
+  padding-left: 10px;
+  /* padding-bottom: 10px; */
+}
+.StatusList {
+  width: 95%;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  height: 320px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.StatusList::-webkit-scrollbar {
+  display: none;
+}
+.StatusList .MuiCard-root {
+  text-align: left;
+  padding-top: 10px;
+}
+.DashStatsDiv .MuiCard-root {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.StatsListTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(224, 0, 77);
+  /* margin-top: 5px; */
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.StatsDiv {
+  border: 1px solid #e0d8d8;
+  border-radius: 4px;
+}
+.AppointmentStats {
+  margin-top: 35px;
+  text-align: left;
+  /* float: left; */
+  margin-left: -30px;
+}
+
+.AppointmentStats canvas {
+  width: 200px !important;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: default;
+  height: 200px !important;
+}
+.AppointmentStats .chartjs-size-monitor-shrink > div {
+  width: 100% !important;
+  height: 100% !important;
+}
+.AppointmentTypes canvas {
+  width: 100% !important;
+}
+.AppointmentTypes {
+  height: 155px !important;
+}
+
+.AppointmentStatus {
+  height: 136px;
+}
+.AppointmentStatus canvas {
+  width: 100% !important;
+}
+/* .AppointmentBtn{
+    margin-right: 5;
+              float:right;
+              width: 170px;
+              background-color: #e0004d;
+              border-color:#e0004d;
+              margin-top: 10px;
+}
+.AppointmentBtn:hover, .AppointmentBtn:focus{
+    border-color:#e0004d;
+    background-color: #c30b4a;
+    outline: 1px solid transparent !important;
+
+} */
+.Yes {
+  display: block;
+}
+.No {
+  display: none;
+}
+.AppointmentDate {
+  float: right;
+  margin-top: 10px;
+}
+.ProgressDiv {
+  border: 1px solid #e0d8d8;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: left;
+}
+.ProgressCard {
+  width: 100%;
+  border: 1px solid #efefef;
+  border-radius: 4px !important;
+  padding: 5px;
+  box-shadow: 14px -1px 22px -2px rgb(0 0 0 / 5%),
+    0px 1px 1px 0px rgb(107 107 107 / 3%), 0px 1px 3px 0px rgb(0 0 0 / 2%) !important;
+  margin-bottom: 10px;
+}
+.NextCard .ant-badge {
+  position: absolute;
+  top: -6px;
+  right: 11px;
+}
+.CurrentCard .ant-badge {
+  display: none;
+}
+.ProgressCard .MuiCardContent-root {
+  padding: 5px;
+}
+.m-0 {
+  margin: 0px !important;
+}
+.patientStatus {
+  color: #e0004d;
+  font-size: 14px;
+  font-weight: 550;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.ProgressCard .MuiAvatar-root {
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  display: flex;
+  border: 1px solid #e66166;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+.AgeLabel {
+  font-size: 14px;
+  margin-left: 2px;
+  margin-bottom: 3px;
+}
+.GenderLabel {
+  font-size: 14px;
+  margin-left: 2px;
+}
+.NameLabel {
+  color: #e0004d;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 4px;
+}
+.ProgressCard .MuiCardActions-root {
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  padding-bottom: 0px;
+}
+.Timelabel {
+  color: #e0004d;
+  font-size: 20px;
+  font-weight: 550;
+}
+.ProgressBar .MuiLinearProgress-root {
+  height: 6px;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+.ProgressBar .MuiLinearProgress-barColorPrimary {
+  background-color: #e3464d;
+}
+.ProgressBar {
+  text-align: center;
+}
+.ProgressBar h6 {
+  font-weight: 550;
+  margin-top: 5px;
+}
+.CurrentCard {
+  opacity: 1;
+}
+.NextCard {
+  opacity: 0.9;
+}
+
+.SectionInfo .css-1fhf3k1-control {
+  word-wrap: normal;
+  min-height: 34px;
+  border-color: hsl(0deg 0% 81%);
+  width: 432px;
+  border-radius: 4px;
+  background: #efefef;
+  border: 1px solid #c5c2c2;
+  /* padding: 5px; */
+  color: #7b7878;
+  font-size: 14px;
+  margin-left: -6px;
+}
+.locationSelection select:focus,
+.locationSelection select:hover {
+  outline: 1px solid #e3464d;
+  border-radius: 4px;
+}
+
+.TitleLabel {
+  color: #e0004d;
+  font-size: 16px;
+  font-weight: 550;
+}
+.CompletedTitle {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(224, 0, 77);
+  text-align: center;
+  /* margin-top: 5px; */
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.QueList .MuiTimeline-root {
+  display: flex;
+  padding: 6px 16px;
+  flex-grow: 1;
+  /* flex-direction: column; */
+  padding-left: 0px;
+  /* scroll-padding-inline-start: 0px !important; */
+  padding-inline-start: 0px !important;
+  margin-block-start: 0px !important;
+  text-align: -webkit-left;
+}
+.QueList .MuiTimeline-root {
+  flex-direction: unset;
+}
+
+.AppointmentTypes .chartjs-render-monitor {
+  display: block;
+  width: 300px !important;
+  height: 150px !important;
+  margin-top: 20px;
+}
+
+.AppointmentStatus .chartjs-render-monitor {
+  display: block;
+  width: 300px !important;
+  height: 150px !important;
+  float: right;
+  margin-top: -20px;
+}
+/* .g2-html-annotation
+{pointer-events: none;
+width: 116px;
+transform: translate(-50%, -50%);
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+display: flex;
+justify-content: center;
+align-items: center;
+text-shadow: 0px 0px 0px;
+-webkit-text-stroke: 0px;
+font-weight: bold;
+color: #f5f5f5 !important;
+text-align: center;
+font-size: 32px;
+line-height: 1;
+position: absolute;
+left: 197px;
+top: 107px;
+border-radius: 50%;
+height: 117px;
+z-index: 7;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef6fa1), color-stop(100%, #e0004d));
+} */
+.Statslegends .ant-badge-status-text {
+  color: #6c757d;
+}
+.Statslegends .ant-badge {
+  cursor: pointer;
+  cursor: pointer;
+  font-size: 19px;
+  /* text-align: left; */
+  padding: 6px;
+  padding-top: 0;
+  padding-bottom: 4px;
+  padding-bottom: -8px;
+  text-align: left;
+}
+.dpNone {
+  display: none !important;
+}
+.dpBlock {
+  display: block !important;
+}
+.completedAppointmentDiv {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: left;
+}
+.completedAppointmentDiv .carousel.carousel-slider {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  width: 60% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ant-card-bordered .ant-card-cover {
+  margin-top: 2px !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border-bottom: 1px solid;
+  border-color: #efefef;
+}
+.carousel .slide img {
+  width: 105px !important;
+  vertical-align: top;
+  border: 0;
+  height: 105px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border: 2px solid #e0004d !important;
+}
+.Notification-Container .ant-badge-status-processing {
+  position: relative;
+  background-color: #ff0000;
+  margin-top: -8px;
+}

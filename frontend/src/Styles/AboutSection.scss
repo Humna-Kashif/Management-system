@@ -1,0 +1,40 @@
+@import "Colors";
+@import "Input";
+
+$alignment: left;
+$font: 14px;
+$padding: 8px;
+$border-radius: 5px;
+
+.about-row {
+  align-items: center;
+  padding: 3px;
+  min-height: 40px;
+  margin: 0px;
+}
+
+.label {
+  font-size: 14px;
+  color: $grey;
+  text-align: $alignment;
+}
+
+.display-value {
+  text-align: $alignment;
+}
+
+.text-area {
+  font-size: $font;
+  padding-left: $padding;
+  padding-right: $padding;
+  border-radius: $border-radius;
+  outline: none;
+  border: 1px solid $box__border-color;
+  box-shadow: 0px 5px 25px $box-color;
+  background-color: $box-color;
+  width: 100%;
+}
+
+.input__about {
+  @extend %input;
+}

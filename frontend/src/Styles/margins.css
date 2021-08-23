@@ -1,0 +1,37 @@
+/*Top Margins*/
+
+.mtt-2{
+margin-top: 2px !important;   
+}
+.mtt-4{
+    margin-top: 4px !important;   
+    }
+.mtt-5{
+    margin-top: 5px;
+        
+    }
+.mtt-10{
+    margin-top: 10px;
+}
+.mtt-20{
+    margin-top: 20px;
+}
+.mll-15{
+    margin-left: 15px;
+}
+.ant-card-small > .ant-card-head{
+   
+    background: #efefef;
+    }
+    .ant-card-bordered{
+        border-radius: 4px 4px 0px 0px;
+    }
+.mrr-20{
+    margin-right: 20px;
+}
+.mtt-13{
+    margin-top: 13px;
+}
+.mtt-5{
+    margin-top: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aibers</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+  
+    <div class="header">
+      <div class="form-wrapper" >
+        <h3>Sign In</h3>
+        <form class="Login-form">
+          <div class="PhoneNumber">
+            <input 
+            type="tel" 
+            id="phoneNumber" 
+            name="phoneNumber" 
+            pattern="[0-9]" 
+            placeholder="Enter your Phone Number : 3123456789"/> 
+          </div>
+
+          <div class="SignInAccount">
+            <button id="getCode" type="button">Get Code</button> <br>
+          </div>
+          
+          
+          <div id="recaptcha-container"></div>
+
+          <div> 
+            <input type="text" id="code" name="code" placeholder="Enter code here"/> 
+          </div>
+
+          <div class="SignInAccount">
+            <button id="signInWithPhone">Sign In</button>
+            <small>Don't have an Account?</small>
+            <label>Get Registered</label><br>
+            <button id="logout">LogOut</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  
+  <script src="/__/firebase/7.24.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.24.0/firebase-auth.js"></script>
+  <script src="/__/firebase/7.24.0/firebase-analytics.js"></script>
+  
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
+  <script src="./js/functions.js"></script>
+</body>
+</html>

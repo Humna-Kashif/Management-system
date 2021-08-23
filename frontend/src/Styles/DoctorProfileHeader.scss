@@ -1,0 +1,84 @@
+@import "Colors";
+
+$layout: flex;
+$main-direction: row;
+$position: absolute;
+$avatar-dimension: 100px;
+
+%profile-layout {
+  display: $layout;
+  flex: 1;
+}
+
+%icon-location {
+  display: $layout;
+  position: $position;
+  bottom: -30px;
+  right: 0px;
+}
+
+%font-config {
+  position: $position;
+  font-weight: bold;
+  text-align: left;
+}
+
+.nav-style {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: $layout;
+  flex-direction: $main-direction;
+  width: 100%;
+}
+
+.profile-header {
+  @extend %profile-layout;
+  flex-direction: column;
+}
+
+.profile-header__redsection {
+  @extend %profile-layout;
+  background: linear-gradient(
+    135deg,
+    rgba(254, 15, 97, 1) 0%,
+    rgba(224, 0, 77, 1) 48%,
+    rgba(129, 0, 44, 1) 100%
+  );
+  height: 120px;
+  flex-direction: $main-direction;
+}
+
+.profile-header__whitesection {
+  @extend %profile-layout;
+  background: $white;
+  height: 70px;
+  flex-direction: $main-direction;
+}
+
+.icons {
+  @extend %profile-layout;
+}
+
+.icons__avatar {
+  @extend %icon-location;
+}
+
+.icons__add-photo {
+  @extend %icon-location;
+  color: $black;
+  cursor: pointer;
+}
+
+.name-title {
+  @extend %font-config;
+  bottom: 0px;
+  color: $white;
+  font-size: 22px;
+}
+
+.specialization-title {
+  @extend %font-config;
+  color: $primary-color;
+  font-size: 20px;
+}

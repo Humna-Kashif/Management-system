@@ -1,0 +1,9 @@
+$font: 14px;
+$padding: 8px;
+$border-radius: 5px;
+
+%input {
+  font-size: $font;
+  padding: $padding;
+  border-radius: $border-radius;
+}

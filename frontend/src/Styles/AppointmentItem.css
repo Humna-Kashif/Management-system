@@ -1,0 +1,15 @@
+.appointment-item {
+  background-color: aqua;
+}
+
+.appointment-item-s {
+  background-color: red;
+  height: 500px;
+}
+
+.appointment-item:active {
+  background-color: red;
+}
+.docNotes .ant-form-item {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,53 @@
+/* .pro-sidebar .pro-menu .pro-menu-item:active, .pro-sidebar .pro-menu .pro-menu-item:focus{
+    color: #ffffff !important;
+  
+}
+.pro-menu-item:visited, .pro-menu-item:active,.pro-menu-item:focus,.pro-menu-item:focus-visible,.pro-menu-item:focus-within{
+    background-color:#e0004d !important;
+    color: #ffffff !important;
+} */
+.SidebarDivider{
+
+    border-top: 1px solid rgb(255 255 255 / 6%) !important;
+    margin:0px !important;
+}
+.defaultMenuItem {
+    text-decoration: none;
+    border-left: 3px solid transparent !important;
+}
+
+.SideMenuitem:hover{
+    background-color:#e0004d !important;
+}
+
+.SideMenuitem a:hover{
+    color: #ffffff !important;
+}
+.selectedMenuItem{
+    border-left:3px solid #e0004d !important;
+}
+.selectedMenuItem a{
+    color:white !important;
+}
+
+.NotificationOpen{
+    border-left: 3px solid #e0004d !important;
+
+}
+
+.NotificationClose .pro-item-content:hover{
+    color: #ffffff !important;
+}
+.NotificationClose:hover{
+    background-color:#e0004d !important;
+    color: #ffffff !important;
+}
+.NotificationOpen:hover{
+    background-color:#e0004d !important;
+}
+.NotificationOpen .pro-item-content:hover{
+    color: #ffffff !important;
+}
+.NotificationOpen .pro-item-content{
+    color: #ffffff !important;
+}

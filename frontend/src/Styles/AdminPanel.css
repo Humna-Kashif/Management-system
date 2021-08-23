@@ -1,0 +1,176 @@
+.MainCont{
+    border: 1px solid #efefef;
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+.MainCont .MuiTimeline-root{
+    align-items: self-start;
+}
+.contactLabel {
+    color: #9c999a;
+    font-weight: 550;
+    cursor: pointer;
+    margin-bottom: 5;
+    /* float: left; */
+}
+.NameHead{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 550;
+        color: #e2464c;
+        margin-bottom: 0px;
+}
+.diagnosis_container{
+    text-align: left;
+    height: 75vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.diagnosis_container .MuiTimelineContent-root{
+    flex: none
+}
+.adminHospital .MuiTimelineItem-missingOppositeContent:before{
+flex: none;
+padding: 0;
+}
+
+.doctor_container{
+    display: flex;
+    flex-direction: initial; 
+    text-align: left;
+}
+
+.doctor_container .MuiTimelineContent-root{
+    flex: none;
+}
+
+.search-list{
+    float: right;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.list-label{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+    cursor: pointer;
+    color: #333333;
+}
+.list-Table{
+    display: flex;
+    flex-flow: row wrap;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    justify-content: space-between;
+}
+.listPrice{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #828080;
+    font-weight: 550;
+    text-indent: 9px;
+}
+.listPadding{
+    padding-bottom: 0px;
+}
+.EditIconList{
+    margin-left: 10px;
+}
+.list-Table .NameHead {
+    /* text-align: left; */
+    font-size: 15px;
+    font-weight: 550;
+    color: #e2464c;
+    cursor: pointer;
+    /* padding-top: 0px; */
+    /* align-content: baseline; */
+    margin-top: 5px;
+    /* margin-bottom: 10px; */
+    /* margin: 30px; */
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
+}
+.list-Table .DivCont{
+    padding: 4px;
+    width: 450px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #fbf4f4;
+    border-style: solid;
+    margin: 2px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* border-left: none; */
+    /* display: flex; */
+    padding: 10px;
+    position: relative;
+    padding-top: 5px;
+}
+.listIcon {
+    /* margin-top: -20px; */
+    color: #979ca0;
+    /* right: 30px; */
+    cursor: pointer;
+    right: 14px;
+    top: 8px;
+    position: absolute;
+    /* margin-right: 30px;*/
+}
+.list-Table .MuiTimeline-root{
+    columns: 2; 
+    display: inline-table;
+}
+.list-Table .MuiTimelineItem-root{
+    float: left;
+}
+.hospital-item{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    padding: 4px;
+    /* width: 450px; */
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #fbf4f4;
+    border-style: solid;
+    margin: 2px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* border-left: none; */
+    /* display: flex; */
+    padding: 10px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.AdminCont{
+    padding: 4px;
+    /* width: 450px; */
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #fbf4f4;
+    border-style: solid;
+    margin: 2px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    /* border-left: none; */
+    /* display: flex; */
+    padding: 10px;
+    position: relative;
+    padding-top: 5px;
+}
+.HospitalHead {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 550;
+    color: #e2464c;
+    cursor: pointer;
+    margin-bottom: 25px;
+  }
+  .ListingsCont{
+    display: flex;
+    flex-direction: column;
+    text-align: left
+  }

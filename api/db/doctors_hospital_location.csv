@@ -1,0 +1,7 @@
+,,,,,,,
+1,2,2,09:00:00 AM,04:00:00 PM,Mon-fri,TRUE,2500
+2,4,2,07:00:00 AM,03:00:00 PM,'mon-tue-wed-thu-fri,TRUE,2000
+3,1,2,11:30:00 AM,05:00:00 PM,'mon-tue-wed-thu-fri,TRUE,1500
+4,3,1,08:30:00 AM,05:00:00 PM,'mon-tue-wed-thu-fri,TRUE,1000
+5,5,1,08:30:00 AM,05:00:00 PM,Sat-sun,TRUE,2000
+6,4,3,10:30:00 AM,05:00:00 PM,Wed-thu-fri-sat,TRUE,1500

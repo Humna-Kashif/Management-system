@@ -1,0 +1,315 @@
+.MuiTableCell-stickyHeader{
+    background-color: #e2464c !important;
+}
+.MuiTableCell-head {
+   
+    font-weight: bold !important;
+  
+}
+
+.TableContainer{
+    max-height:440px !important
+}
+.TableList{
+    border: 1px solid #ececec !important;
+    background: #fdfdfd !important;
+    margin-top: 15px;
+}
+.ChartsDiv{
+    border: 1px solid #efefef;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.SummaryCard{
+    background-color: #f9f3f6;
+    text-align: center;
+    width: auto;
+    height: 85px;
+    margin: 15px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bfbdbd;
+    position: relative;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f5e9ee, #f5f5f5);
+}
+.SummaryVal{
+    color: #e0004d;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 8px;
+    margin-bottom: 0
+}
+
+.VitalsCard{
+    background-color: #f9f3f6;
+    width: 230px;
+    height: 85px;
+    margin: 15px;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bfbdbd;
+    position: relative;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f5e9ee, #f5f5f5);
+
+}
+.VitalsCard:hover{
+    opacity: 0.9;
+    box-shadow: 0 1px 2px -2px rgba(0,0,0,.16), 0 3px 6px 0 rgba(0,0,0,.12), 0 5px 12px 4px rgba(0,0,0,.09);
+}
+.VitalValue{
+    color: #e0004d;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0
+}
+.VitalUnit{
+    color: #ff4d4f;
+    font-size: 16px;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+    background: transparent;
+}
+.ant-radio-group-solid .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):active{
+    border: 1px solid #e0004d;
+    background: transparent;
+}
+.VitalsSelectedCard{
+    background-color: #ffffff;
+    width: 230px;
+    height: 85px;
+    margin: 15px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ecaddc;
+    background-image: linear-gradient(to right, #f5e9ee, #f5f5f5);
+    position: relative;
+    cursor: pointer;
+}
+.VitalsSelectedCard:hover{
+    opacity: 0.9;
+    box-shadow: 0 1px 2px -2px rgba(0,0,0,.16), 0 3px 6px 0 rgba(0,0,0,.12), 0 5px 12px 4px rgba(0,0,0,.09);
+}
+.VitalAddBtn{
+    font-weight: bolder;
+     font-size: 20px;
+      color: #e0004d;
+      text-align: right;
+      cursor:pointer
+    }
+    .VitalAddBtn:hover, .VitalAddBtn:focus{
+        color:#a09c9e;
+    }
+    .VitalEditBtn{
+        font-weight: bolder;
+         font-size: 6px;
+          color: #a09c9e ;
+          text-align: right;
+          margin-right: 5px;
+          cursor:pointer
+        }
+        .VitalEditBtn:hover, .VitalEditBtn:focus{
+            color:#e0004d;
+        }
+        .VitalEditBtn .MuiSvgIcon-root{
+            height: 18px;
+            width: 18px;
+        }
+    .VitalInfo{
+        text-align: left;
+         padding: 7px
+    }
+    .VitalImg{
+        height: 70px;
+    width: 70px;
+    margin-top: 0px;
+    border-radius: 50%;
+    border: 1px solid #fac;
+    box-shadow: 0 1px 0.5px -2px rgb(255 255 255 / 9%), 0 3px 6px 0 rgb(255 255 255 / 12%), 0 5px 12px 4px rgb(167 165 165 / 9%);
+    background: #ffffff;
+    }
+    .VitalName{
+        font-weight: bold;
+        opacity: 0.6;
+        font-size: 14px;
+        margin-left: -1px;
+        color: #171717;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+    .ant-message-notice-content{
+        box-shadow: 0 3px 6px -4px rgb(0 0 0 / 0%), 0 6px 16px 0 rgb(0 0 0 / 0%), 0 9px 28px 8px rgb(0 0 0 / 0%) !important;
+        background: #fff0 !important;
+    }
+    .VitalMoment{
+        opacity: 0.6;
+    font-size: 12px;
+    font-weight: bold;
+    /* padding-top: 10px; */
+    color: #6d6b6b;
+    }
+
+
+    .VitalCurrent{
+     color:  #787b7e;
+     padding-top: 10px;
+      font-size: 14px;
+       font-weight: bold
+
+    }
+    .ModalTitle{
+        color: #e0004d;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+.btn-primary {
+    color: #fff;
+    background-color: #e0004d !important ;
+    border-color: #e0004d !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    box-shadow: 0 0 0 0.2rem #e0004d26 !important;
+}
+.nav-tabs .nav-link a{    color: #e0004d !important;
+}
+.EmptyImg{
+    height: 130px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.EmptyImg:hover{
+    opacity: 0.8;
+}
+.EmptyLabel{
+    color: #c7c7c7 !important;
+    font-weight: bold !important;
+}
+input {
+    box-shadow: 0px 5px 25px #f5f5f500 !important;
+}
+.DropLabel{
+   font-weight: bold;
+    color: #e0004d;
+    cursor: pointer;
+}
+.DropListLabel{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #a29898;
+    margin-left: 5px;
+}
+
+.TagsList{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    background-color: #e0004d;
+    color: white;
+    min-width: 30px;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 2px;
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 3px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.TagsList:hover{
+    opacity: 0.8;
+}
+.LabelCross{
+    margin-left: 10px;
+    padding-left: 4px;
+    padding-right: 0px;
+    font-size: 10px;
+    cursor: pointer;
+    color: #efefef;
+}
+
+.TestPriceLabel{
+    color: #aba9a9 !important;
+    text-align: center;
+    margin-top: 7px;
+}
+.TestTitle{
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 550;
+}
+.TestStatus{
+    width: 100px;
+    background-color: #e4a915;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+.TestStatus:hover{
+    opacity: 0.8;
+}
+.DeleteTest{
+    color: #bd081a;
+    font-weight: bold;
+    padding: 6px;
+    margin: 2px;
+    cursor: pointer;
+}
+.DeleteBtn{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+    color: #e0004d;
+    background-color: transparent !important  ;
+}
+.DeleteBtn:hover{
+    color: red !important;
+    border-color: red !important;
+    border: 1px solid transparent !important;
+    background-color: transparent !important  ;
+
+}
+.DeleteTest:hover{
+    color: #bababa;
+}
+
+::selection {
+    color: #fff;
+    background: #e0004d !important;
+}
+
+.MedicineTitle{
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 550;
+}
+.MedPriceLabel {
+    color: #aba9a9 !important;
+    text-align: center;
+}
+
+.VitalImgIcon{
+    height: 40px;
+    width: 40px;
+    margin: 14px; }
+    .dp-none{
+        display: none;
+    }

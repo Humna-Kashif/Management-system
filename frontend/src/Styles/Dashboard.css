@@ -1,0 +1,91 @@
+.ColHeader {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 550;
+    color: #333333;
+    cursor: pointer;
+    margin-top: 18px;
+    /* margin-bottom: 5px; */
+}
+.AnaylyticsDiv{
+    border: 1px solid #efefef;
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+.StatisticDiv{
+    border: 1px solid #efefef;
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: left;
+    min-height: 400px;
+    max-height: 400px;
+}
+.DbLabel{
+    color: #a09e9e;
+    font-weight: bold;
+}
+.WidgetCards{
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px -1px 2px 0px #e8e8e8;
+    background: #fdfdfd;
+    width: 240px;
+}
+.TitleLabelCard {
+    color: #a09e9e;
+    font-weight: bold;
+    font-size: 20px;
+}
+.NumCards{
+    color: #e0004d;
+    font-size: 22px;
+}
+.smLabel{
+    color: #afafaf;
+    font-weight: 550;
+}
+.AnalysisChart{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 80%;
+  
+  
+}
+.EmptyChartCont{
+    min-height: 400px;
+}
+.TreatmentTitle{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e0004d;
+}
+.TreamentList{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ListItem{
+    margin-bottom: 10px;
+}
+.ListItem label {
+    color: #a09e9e;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+.ListItem::marker{
+    color: #a09e9e;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ant-progress-text{
+    color: #a09e9e;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
